@@ -18,32 +18,34 @@
 
 The following is a rough layout of the project in terms of modules and what they attempt to accomplish. Treat each module as lasting between 1-2 weeks depending on the complexity. We will chat about each in our Friday sessions while leaving the bulk of the build as “homework”.
 
-### Module 1 - Project initialization
+### [Module 1 - Project initialization](./docs/modules/module_01.md)
 
 We will start with the creation of the project’s components in GitHub, downloading necessary tooling for local development, and producing our first commit!
-Backend & database setup
+
+### [Module 2 - Backend & database setup](./docs/modules/module_02.md)
+
 Next, we will focus on setting up the boilerplate backend and our databases. This will enable us to begin development of the API. We will build out our first couple of endpoints and initialize our database with a few tables. Our goal will be to create basic CRUD endpoints for the core models and persist those changes to the database, leveraging tools like Beekeeper and Postman for assistance.
 
-### Module 2 - Frontend & API contract setup
+### [Module 3 - Frontend & API contract setup](./docs/modules/module_03.md)
 
 Next, we will focus on the setup of the frontend and begin developing our API contract as a guide for backend development. We will build out a simple page to list recipes which are stored in the backend and specific pages for each recipe with routing. Our goal will be to view and create recipes on the frontend and have those pages interact with the backend, leveraging tools like React Query and React Router.
 
-### Module 3 - AWS Deployment
+### [Module 4 - AWS Deployment](./docs/modules/module_04.md)
 
 At this middle point in the project, we will deploy our very simple application to AWS. We will build our Docker files and initialize Terraform to manage our AWS resources. Finally, we will stand up our AWS resources and deploy our project images to those via Github actions
 
-### Module 4 - Authentication
+### [Module 5 - Authentication](./docs/modules/module_05.md)
 
 This entire module will focus on authentication. How to authenticate on the frontend and authorize users to roles on the backend, which can be propagated throughout the API endpoints and interaction with the database. We will also create functionality on the frontend for users to login, logout, and view profiles. Finally, we will create user-settings which can be applied at every login.
 
-### Module 5 - Wave 1 of new features: Servings Calculations
+### [Module 6 - Wave 1 of new features: Servings Calculations](./docs/modules/module_06.md)
 
 We will create a new servings calculations feature. The first wave of new features will focus on learning how to collaborate in GitHub, review and issue PRs appropriately, and to build in linting and type checking into our pipelines to ensure our applications have a consistent baseline in quality. We will discuss new components on the frontend and state management in React.
 
-### Module 6 - Wave 2 of new features: Shopping Lists
+### [Module 7 - Wave 2 of new features: Shopping Lists](./docs/modules/module_07.md)
 
 We will create a new feature to allow users to create, share, and manage shopping lists. We will focus on building these new pages on the frontend, building new API endpoints on the backend, and finally how to develop new tables and migrate our existing database with the new tables.
 
-### Module 7 - Wave 3 of new features: Nutritional Details
+### [Module 8 - Wave 3 of new features: Nutritional Details](./docs/modules/module_08.md)
 
 As the final module in this project, we will integrate with external APIs to gather nutritional information for recipes which can be viewed with the recipe, scaled to the appropriate serving size (see 6). This will involve managing development and production keys for external APIs and the development of a cacheing layer on the backend.
